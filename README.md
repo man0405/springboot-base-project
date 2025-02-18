@@ -14,7 +14,7 @@ This is start-kit project for Spring Boot applications. It includes the followin
 
 ## Setup
 
-1. Clone this repository and open it in `IntelliJ IDEA 2024.1.7`.
+1. Clone this repository and open it in IDE.
 2. Ensure Gradle is configured in your IDE.
 3. Set up environment variables for:
 
