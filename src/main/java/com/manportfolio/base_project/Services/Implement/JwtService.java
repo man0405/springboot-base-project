@@ -17,7 +17,8 @@ public class JwtService {
 
      @Value("${JWT_SECRET}")
      private  String secret;
-     private static final long expiration = 86400000;
+     @Value("${JWT_EXPIRATION}")
+     private long expiration;
 
      public String generateToken(UserDetails userDetails) {
           Map<String, Object> claims = new HashMap<>();
